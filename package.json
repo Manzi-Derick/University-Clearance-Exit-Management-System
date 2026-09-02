@@ -4,11 +4,11 @@
   "description": "University Clearance & Exit Management System",
   "scripts": {
     "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
-    "dev-backend": "cd backend && npm run dev",
-    "dev-frontend": "cd frontend && npm run dev",
-    "start-backend": "cd backend && npm start",
-    "start-frontend": "cd frontend && npm start",
-    "build-frontend": "cd frontend && npm run build"
+    "dev-backend": "node init && cd backend && npm run dev",
+    "dev-frontend": "node init && cd frontend && npm run dev",
+    "start-backend": "node init && cd backend && npm start",
+    "start-frontend": "node init && cd frontend && npm start",
+    "build-frontend": "node init && cd frontend && npm run build"
   },
   "keywords": [],
   "author": "",

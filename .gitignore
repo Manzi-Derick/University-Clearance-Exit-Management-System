@@ -19,7 +19,6 @@ frontend/vite.err.log
 frontend/vite.out.log
 
 # Environment variables
-.env
 backend/.env
 frontend/.env
 frontend/.env.local
@@ -29,7 +28,6 @@ frontend/.env.production.local
 
 # IDEs and editors
 .idea/
-.vscode/
 *.swp
 *.swo
 *.DS_Store
@@ -41,3 +39,7 @@ database/Unidb.sql
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
